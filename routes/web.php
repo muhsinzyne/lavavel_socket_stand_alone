@@ -19,5 +19,4 @@ Route::get('/', function () {
 
 Route::get('sockets/serve', function(){
     \Illuminate\Support\Facades\Artisan::call('websockets:serve');
-    echo "socket started";
 });
