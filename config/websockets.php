@@ -115,7 +115,7 @@ return [
          * certificate chain of issuers. The private key also may be contained
          * in a separate file specified by local_pk.
          */
-        'local_cert' => '/etc/pki/tls/certs/goit-socket.ml.cert',
+        'local_cert' => '/home/goit/goit-socket.ml/ssl/certificate.crt',
          //'local_cert' => env('LARAVEL_WEBSOCKETS_SSL_LOCAL_CERT', null),
 
          /*
@@ -123,7 +123,7 @@ return [
          * certificate (local_cert) and private key.
          */
         
-        'local_pk' => '/etc/pki/tls/private/goit-socket.ml.key',
+        'local_pk' => '/home/goit/goit-socket.ml/ssl/private.key',
         //'local_pk' => env('LARAVEL_WEBSOCKETS_SSL_LOCAL_PK', null),
 
         /*
